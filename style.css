@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
 
+    gap: 15px;
+
     height: 100vh; /* Sets the height to 100% of the viewport height */
     width: 100vw; 
 }
@@ -14,4 +16,13 @@
 .sidebar {
     grid-column: 1;
     grid-row: 1 / -1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 350px 200px;
+}
+
+.sideRow1, .sideRow2, .sideRow3 {
+    display: grid;
+    padding: 15px;
 }
