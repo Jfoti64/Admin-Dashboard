@@ -19,10 +19,50 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 350px 200px;
+    grid-template-rows: 70px 300px 150px;
 }
 
-.sideRow1, .sideRow2, .sideRow3 {
+.sideRow1, .sideRow2, .sideRow3, .headRow1, .headRow2  {
     display: grid;
     padding: 15px;
+}
+
+.sideRow1 {
+    font-size: 1.75rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.headRow1 {
+    grid-template-columns: 1fr 500px repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.headRow1 > div:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+}
+
+#searchbar {
+    grid-column: 2 / 3;
+    width: 400px;
+    justify-self: start;
+}
+
+.notifications {
+    grid-column: 3;
+}
+
+.account {
+    grid-column: 4;
+}
+
+.name {
+    grid-column: 5;
 }
