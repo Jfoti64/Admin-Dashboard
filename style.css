@@ -102,17 +102,26 @@
     align-items: start;
 }
 
-.card > button {
+/* .card > button {
     grid-row: 3;
     margin: 8px;
-}
+} */
 
-.card button {
+.card img {
+    grid-row: 3;
+    margin: 8px;
     height: 25px;
     width: 25px;
     align-self: center;
     justify-self: end;
 }
+
+/* .card button {
+    height: 25px;
+    width: 25px;
+    align-self: center;
+    justify-self: end;
+} */
 
 .announcements {
     display: grid;
