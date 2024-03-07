@@ -22,7 +22,7 @@
     grid-template-rows: 70px 300px 150px;
 }
 
-.sideRow1, .sideRow2, .sideRow3, .headRow1, .headRow2  {
+.sideRow1, .sideRow2, .sideRow3, .header {
     display: grid;
     padding: 15px;
 }
@@ -31,14 +31,10 @@
     font-size: 1.75rem;
 }
 
-.headRow1 {
+.header {
     grid-template-columns: 1fr 500px repeat(3, 1fr);
-    grid-template-rows: 1fr;
-}
-
-.headRow1 > div:nth-child(1) {
-    grid-column: 1;
-    justify-self: start;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 
 #searchbar {
@@ -48,19 +44,11 @@
     justify-self: start;
 }
 
-.notifications {
-    grid-column: 3;
+.newBtn, .uploadBtn, .shareBtn {
+    height: 25px;
+    width: 75px;
 }
 
-.account {
-    grid-column: 4;
-}
-
-.name {
-    grid-column: 5;
-}
-
-.headRow2 {
-    grid-template-columns: 1fr 250px repeat(3, 1fr);
-    grid-template-rows: 1fr;
+.justifyCenter {
+    justify-self: center;
 }
