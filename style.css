@@ -52,3 +52,17 @@
 .justifyCenter {
     justify-self: center;
 }
+
+.mainContent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.yourProjects {
+    grid-row: 1 / 3;
+}
+
+.trending {
+    grid-column: 2;
+}
+
