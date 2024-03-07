@@ -19,6 +19,7 @@
 
 .sideRow1, .sideRow2, .sideRow3, .header {
     display: grid;
+    grid-template-columns: 1fr 5fr;
     padding: 15px;
 }
 
@@ -151,4 +152,9 @@
 
 .icon {
     grid-row: 1 / 3;
+}
+
+.mediumIcon {
+    height: 30px;
+    width: 30px;
 }
