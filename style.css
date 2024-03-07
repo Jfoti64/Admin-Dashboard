@@ -31,20 +31,12 @@
     font-size: 1.75rem;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
 .headRow1 {
     grid-template-columns: 1fr 500px repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
-    place-items: center;
+    grid-template-rows: 1fr;
 }
 
 .headRow1 > div:nth-child(1) {
-    grid-row: 1;
     grid-column: 1;
     justify-self: start;
 }
@@ -52,6 +44,7 @@
 #searchbar {
     grid-column: 2 / 3;
     width: 400px;
+    height: 20px;
     justify-self: start;
 }
 
@@ -65,4 +58,9 @@
 
 .name {
     grid-column: 5;
+}
+
+.headRow2 {
+    grid-template-columns: 1fr 250px repeat(3, 1fr);
+    grid-template-rows: 1fr;
 }
