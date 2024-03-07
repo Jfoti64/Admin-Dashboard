@@ -55,6 +55,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: lightgray;
+    gap: 15px;
 }
 
 .yourProjects {
@@ -65,8 +66,10 @@
     gap: 15px;
 }
 
-.trending {
-    grid-column: 2;
+.mainContentRightCol {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .yourProjects > h4 {
@@ -106,4 +109,12 @@
     width: 25px;
     align-self: center;
     justify-self: end;
+}
+
+.announcements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1rem repeat(3, 200px);
+    gap: 15px;
+    background-color: green;
 }
