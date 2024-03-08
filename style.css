@@ -7,6 +7,10 @@
     width: 100vw; 
 }
 
+body { 
+    margin: 0px;
+}
+
 .sidebar {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -14,7 +18,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 300px 200px;
-    background-color: #38bdf8;
+    background-color: #0c98d9;
     justify-content: start;
 }
 
@@ -39,7 +43,7 @@
 }
 
 .sideRows img{
-    filter: invert(88%) sepia(9%) saturate(254%) hue-rotate(195deg) brightness(111%) contrast(98%);
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(323deg) brightness(104%) contrast(102%);
 }
 
 /* .sideRow1, .sideRow2, .sideRow3, .header {
@@ -57,7 +61,7 @@
 }
 
 .sideRows a {
-    color: #f8fafc;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -124,7 +128,7 @@
 
 .card {
     display: grid;
-    background-color: #f8fafc;
+    background-color: white;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 3fr 3fr;
     border-left: #facc15 solid 7px;
@@ -164,7 +168,7 @@
 .announcements, .trending {
     padding: 10px;
     font-size: .7rem;
-    background-color: #f8fafc;
+    background-color: white;
     border-radius: 6px;
 }
 
