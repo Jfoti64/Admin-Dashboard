@@ -67,6 +67,7 @@
 }
 
 .mainContentRightCol {
+    grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -129,6 +130,10 @@
 
 .announcements div {
     align-self: start;
+}
+
+.announcementsRow h5, p {
+    margin: 2px 0px 0px 0px;
 }
 
 .trending {
