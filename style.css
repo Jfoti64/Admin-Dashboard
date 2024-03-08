@@ -163,6 +163,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
+    align-items: center;
 }
 
 .announcements, .trending {
@@ -170,10 +171,6 @@ body {
     font-size: .7rem;
     background-color: white;
     border-radius: 6px;
-}
-
-.announcements div {
-    align-self: start;
 }
 
 .announcementsRow h5, p {
