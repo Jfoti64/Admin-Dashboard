@@ -39,7 +39,7 @@
 }
 
 .sideRows img{
-    filter: invert(100%) sepia(68%) saturate(31%) hue-rotate(133deg) brightness(108%) contrast(108%);
+    filter: invert(88%) sepia(9%) saturate(254%) hue-rotate(195deg) brightness(111%) contrast(98%);
 }
 
 /* .sideRow1, .sideRow2, .sideRow3, .header {
@@ -57,7 +57,7 @@
 }
 
 .sideRows a {
-    color: white;
+    color: #f8fafc;
     text-decoration: none;
     font-size: 1.2rem;
 }
