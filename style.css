@@ -12,6 +12,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .sidebar {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -71,6 +75,7 @@ body {
 .headerTopRow {
     display: grid;
     grid-template-columns: 1fr 3fr repeat(3, 1fr);
+    align-items: center;
 }
 
 .headerBottomRow {
@@ -212,6 +217,7 @@ body {
 
 .announcementsRow h5, p {
     margin: 2px 0px 0px 0px;
+
 }
 
 .announcementsRow h5 {
@@ -220,6 +226,10 @@ body {
 
 .announcementsRow {
     margin: 0px 12px 12px 12px;
+}
+
+.announcementsRow p {
+    padding: 7px 7px 7px 0px;
 }
 
 .announcementsRow:first-child {
