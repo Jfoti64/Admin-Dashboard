@@ -218,6 +218,11 @@ body {
     border-radius: 6px;
 }
 
+.mainContentRightCol h4 {
+    align-self: center;
+    margin: 0px;
+}
+
 .announcementsRow h5, p {
     margin: 2px 0px 0px 0px;
 }
